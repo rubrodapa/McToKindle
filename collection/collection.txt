@@ -1,0 +1,2 @@
+The MangaFinder module can be called to download the manga chapters and stores it without converting it to mobi.
+It will store the images in this folder, a folder for each manga and inside a folder for each chapter.

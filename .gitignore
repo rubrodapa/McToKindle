@@ -1,0 +1,7 @@
+.idea/
+kcc/
+*.pyc
+images/**
+collection/**
+!images/images.txt
+!collection/collection.txt
