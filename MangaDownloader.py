@@ -138,6 +138,8 @@ class MangaDownloader():
             i += 1
             actual_page += 1
 
+        return True
+
     def download_images(self, info):
 
         self.delete_image_files('.\images')
@@ -199,6 +201,8 @@ class MangaDownloader():
             output.close()
             i += 1
             actual_page += 1
+
+        return True
 
     def create_mobi_file(self, title):
         name = title + ".epub"
